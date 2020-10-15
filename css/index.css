@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mukta+Vaani:wght@500&family=Noto+Serif:ital@1&family=PT+Serif&display=swap');
+:root {
+    --main-color: black;
+    --accent-color: white;
+     font-family: 'Merriweather', serif;
+}
+
+header .logo { font-family:'Merriweather', serif;
+font-size: 2.5rem;
+text-align: left;
+
+}
+
+header .menu-items {
+    flex: 1;
+    justify-content: space-around;
+}
+
+header .menu-items a {
+    display: block; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+
+}
+
+@media (min-width:769px) {
+    header .header-nav {
+        display: flex;
+        }
+    header .menu-items  {
+        display: flex;
+        align-items: center;
+        }
+}
+header .header-banner {
+    background-image: url(../img/img-reception.jpg);
+    background-size: cover;
+    min-height: 850px;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 2.8rem;
+}
+header .header-banner  {
+    color: var(--accent-color);
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+}
