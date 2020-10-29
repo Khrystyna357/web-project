@@ -1,4 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mukta+Vaani:wght@500&family=Noto+Serif:ital@1&family=PT+Serif&display=swap');
+
+ 
+ 
+ header .jumbotronjumbotron-fluid {
+    background-image: url(../img/img-reception.jpg);
+     background-size: cover;
+    min-height: 850px;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+   
+   
+    }
+ 
+ header .jumbotronjumbotron-fluid  {
+    color: white;
+   
+  
+ }
+ 
+ main .about {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 300px;
+      font-size: 1.7rem;
+text-align: center; 
+
+}
+main .row {
+    text-align: center;
+padding: 100px;
+margin-left: 300px;
+} 
+
+
+   main .rooms {
+       text-align: center;
+   }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mukta+Vaani:wght@500&family=Noto+Serif:ital@1&family=PT+Serif&display=swap');
 :root {
     --main-color: black;
     --accent-color: white;
@@ -36,7 +93,7 @@ header .menu-items a {
     header .menu-items  {
         display: flex;
         align-items: center;
-        }
+        
 }
 header .header-banner {
     background-image: url(../img/img-reception.jpg);
@@ -76,3 +133,4 @@ margin: 15px;
 margin-top: 140px;
 margin-right: 50px;
 } 
+*/
