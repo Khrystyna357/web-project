@@ -1,7 +1,5 @@
 
- 
 
- 
  
  header .jumbotronjumbotron-fluid {
     background-image: url(../img/img-reception.jpg);
@@ -25,7 +23,7 @@
     display: flex;
     flex-direction: row-reverse;
     padding: 300px;
-      font-size: 1.7rem;
+      font-size: 1.4rem;
 text-align: center; 
 
 }
@@ -46,14 +44,18 @@ main .restoran {
     flex-direction: row-reverse;
     padding: 300px;
       font-size: 1.7rem;
-text-align: center; 
+text-align: center; }
+
+
+ main .proposition {
+       text-align: center;
+   }  
+
+footer .end {
+
+ color: orange;   
 
 }
-
-
-
-
-
 
 
 
