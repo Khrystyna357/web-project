@@ -1,147 +1,43 @@
-
-
- 
- header .jumbotronjumbotron-fluid {
-    background-image: url(../img/img-reception.jpg);
-     background-size: cover;
-    min-height: 850px;
-    display: flex;
-    align-items: left;
-    justify-content:center;
-    flex-direction: column;
-   
-   
-    }
- 
- header .jumbotronjumbotron-fluid  {
-    color: white;
-   
-  
- }
- 
- main .about {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 300px;
-      font-size: 1.4rem;
-text-align: center; 
-
-}
-main .row {
-    text-align: center;
-padding: 100px;
-margin-left: 300px;
-} 
-
-
-   main .rooms {
-       text-align: center;
-   }  
-
-
-main .restoran {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 300px;
-      font-size: 1.7rem;
-text-align: center; }
-
-
- main .proposition {
-       text-align: center;
-   }  
-
-footer .end {
-
- color: orange;   
-
-}
-
-
-
-
-
-
-
-
-
-
-/*@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mukta+Vaani:wght@500&family=Noto+Serif:ital@1&family=PT+Serif&display=swap');
-:root {
-    --main-color: black;
-    --accent-color: white;
-     font-family: 'Merriweather', serif;
-}
-body {
-    max-width: 1200px;
-    margin: auto;
-}
-header .logo { font-family:'Merriweather', serif;
-font-size: 2.5rem;
-text-align: left;
-
-}
-
-header .menu-items {
-    flex: 1;
-    justify-content: space-around;
-}
-
-header .menu-items a {
-    display: block; 
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--main-color);
-    border: 1px solid transparent;
-    padding: 5px;
-
-}
-
-@media (min-width:769px) {
-    header .header-nav {
-        display: flex;
-        }
-    header .menu-items  {
-        display: flex;
-        align-items: center;
-        
-}
-header .header-banner {
+header .jumbotronjumbotron-fluid {
     background-image: url(../img/img-reception.jpg);
     background-size: cover;
     min-height: 850px;
     display: flex;
     align-items: left;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
-    font-size: 2.8rem;
-    
-  
-}
-header .header-banner  {
-    color: var(--accent-color);
-    font-family: 'Merriweather', serif;
-    font-size: 3.5rem;
-    
 }
 
- main .about {
+header .jumbotronjumbotron-fluid {
+    color: white;
+}
+
+main .about {
     display: flex;
     flex-direction: row-reverse;
-    padding: 90px;
-      font-size: 1.5rem;
-text-align: center; 
+    padding: 300px;
+    font-size: 1.4rem;
+    text-align: center;
 }
-main .about div {
 
-    width: 50%;
-    
+main .row {
+    text-align: center;
+    padding: 100px;
+    margin-left: 300px;
 }
-main .about img {
- text-align:left;
-     width: 50%;
-margin: 15px;
-margin-top: 140px;
-margin-right: 50px;
-} 
-*/
+
+main .rooms {
+    text-align: center;
+}
+
+main .restoran {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 300px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+main .proposition {
+    text-align: center;
+}
