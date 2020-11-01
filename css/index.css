@@ -13,31 +13,34 @@ header .jumbotronjumbotron-fluid {
 }
 
 main .about {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 300px;
-    font-size: 1.4rem;
-    text-align: center;
+    margin-top: 230px;
+   
+  
 }
 
-main .row {
-    text-align: center;
-    padding: 100px;
-    margin-left: 300px;
-}
+
 
 main .rooms {
+    margin-top: 230px;
     text-align: center;
 }
 
 main .restoran {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 300px;
-    font-size: 1.7rem;
-    text-align: center;
+    margin-top: 230px;
 }
 
 main .proposition {
     text-align: center;
+}
+main .restoran {
+     margin-top: 230px;
+}
+main .proposition {
+    margin-top: 230px;
+}
+main .contactsus {
+    margin-top: 350px;
+}
+main .book {
+    margin-top: 700px;
 }
