@@ -1,3 +1,10 @@
+
+body {
+    max-width: 1700px;
+    margin: auto;
+}
+
+
 header .jumbotronjumbotron-fluid {
     background-image: url(../img/img-reception.jpg);
     background-size: cover;
@@ -15,9 +22,11 @@ header .jumbotronjumbotron-fluid {
 main .about {
     margin-top: 230px;
    
-  
+ 
 }
-
+main .media-body {
+    margin-top: 70px;
+}
 
 
 main .rooms {
@@ -25,8 +34,12 @@ main .rooms {
     text-align: center;
 }
 
+main .restoranbody {
+    margin-top: 70px;
+}
 main .restoran {
     margin-top: 230px;
+
 }
 
 main .proposition {
@@ -42,5 +55,13 @@ main .contactsus {
     margin-top: 350px;
 }
 main .book {
-    margin-top: 700px;
+    margin-top: 200px;
+}
+
+main .contact {
+    margin-top: 15px;
+}
+
+footer .end {
+    margin-top: 400px;
 }
